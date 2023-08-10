@@ -8,13 +8,14 @@ body{
   padding: 0;
   color: #eceff2;
   overflow-x: hidden;
+  min-height: 100vh;
   
 }
 
 #main {
   width: 626px;
-  height: 100vh;
-  margin: 64px 199px;
+  margin: 64px 20px;
+  
 
 }
 
@@ -48,7 +49,7 @@ p span {
 
 #line {
   align-items: center;
-  width: 520px;
+  width: 391px;
   height: 0px;
   margin: 24px auto 16px;
   border: 1px solid #eceff2;
@@ -59,12 +60,22 @@ p span {
   font-weight: bold;
 }
 
+
+
 #footer a + a {
   margin-left: 42px;
   margin-bottom: 42px;
+  opacity: 1;
+}
+
+footer:hover{
+font-weight: bold;
+opacity: 0.5;
+background: #828282;
 }
 
 #footer img {
+  position: fixed;
   width: 100vw;
   left: 0;
   bottom: -30px;
